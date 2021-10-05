@@ -1,0 +1,112 @@
+Load map
+========
+
+Module:  connect4.obj
+ Text segment:  2392 bytes, load point 0x00400000
+ Data segment:  1088 bytes, load point 0x10000000
+ Symbols:
+                  Name Section Mode    Value
+          hor_if_three   Text   R   0x00400220
+       goto_player_two   Text   R   0x00400128
+          pos_if_three   Text   R   0x004004f0
+              neg_else   Text   R   0x00400700
+             win_start   Text   R   0x00400130
+           hor_if_true   Text   R   0x004002c0
+         display_intro   Text   R   0x004008a0
+           pos_if_four   Text   R   0x0040053c
+        print_one_quit   Data   R   0x1000041d
+            ver_if_two   Text   R   0x00400334
+           neg_if_true   Text   R   0x00400718
+      end_hor_loop_one   Text   R   0x004002bc
+             grid_core   Data   R   0x10000073
+        print_two_quit   Data   R   0x1000042d
+          pos_loop_one   Text   R   0x00400448
+    player_two_message   Text   R   0x00400090
+          neg_if_three   Text   R   0x00400668
+      print_one_winner   Data   R   0x100003fb
+                LENGTH          A   0x0000002a
+      end_pos_loop_two   Text   R   0x00400590
+         print_welcome   Data   R   0x10000000
+       not_valid_input   Text   R   0x0040080c
+              pos_else   Text   R   0x00400588
+              hor_else   Text   R   0x004002a8
+         display_board   Text   R   0x00400904
+            hor_if_one   Text   R   0x00400198
+              READ_INT          A   0x00000005
+          neg_loop_one   Text   R   0x004005c0
+           print_space   Data   R   0x1000031e
+       goto_player_one   Text   R   0x00400120
+      end_neg_loop_two   Text   R   0x00400708
+            neg_if_two   Text   R   0x0040061c
+         print_newline   Data   R   0x1000031c
+           ver_if_true   Text   R   0x00400424
+          ver_loop_two   Text   R   0x004002e8
+            ver_if_one   Text   R   0x004002ec
+       player_one_wins   Text   R   0x00400828
+      print_two_winner   Data   R   0x1000040c
+          all_if_false   Text   R   0x00400720
+       player_two_wins   Text   R   0x00400844
+  check_valid_col_loop   Text   R   0x00400784
+      end_pos_loop_one   Text   R   0x0040059c
+         play_game_two   Text   R   0x004000a4
+         hor_loop_zero   Text   R   0x00400178
+          ver_if_three   Text   R   0x0040037c
+       play_game_three   Text   R   0x00400100
+          hor_loop_two   Text   R   0x00400190
+  print_illegal_number   Data   R   0x100003a0
+           pos_if_true   Text   R   0x004005a0
+         neg_loop_zero   Text   R   0x004005a8
+      print_player_two   Data   R   0x10000360
+        play_game_four   Text   R   0x00400118
+      end_neg_loop_one   Text   R   0x00400714
+           hor_if_four   Text   R   0x00400264
+                 win_o   Text   R   0x00400170
+            neg_if_one   Text   R   0x004005d0
+          ver_loop_one   Text   R   0x004002e0
+          PRINT_STRING          A   0x00000004
+         print_no_room   Data   R   0x100003b7
+                 win_x   Text   R   0x00400168
+            pos_if_two   Text   R   0x004004a4
+           neg_if_four   Text   R   0x004006b4
+                  main   Text   RG  0x00400000
+           player_wins   Text   R   0x00400820
+      end_ver_loop_two   Text   R   0x00400414
+               no_room   Text   R   0x004007f8
+               place_o   Text   R   0x004000f0
+               place_x   Text   R   0x004000e0
+         play_game_one   Text   R   0x00400074
+      player_one_quits   Text   R   0x00400868
+  valid_check_good_end   Text   R   0x004007d4
+               win_end   Text   R   0x00400728
+              grid_end   Data   R   0x10000254
+   valid_check_bad_end   Text   R   0x004007e8
+            grid_intro   Data   R   0x10000055
+         grid_location   Data   R   0x10000274
+          hor_loop_one   Text   R   0x00400188
+      player_two_quits   Text   R   0x00400884
+         pos_loop_zero   Text   R   0x0040042c
+      print_player_one   Data   R   0x10000320
+             print_tie   Data   R   0x100003e2
+              ver_else   Text   R   0x0040040c
+          FRAMESIZE_48          A   0x00000030
+      end_hor_loop_two   Text   R   0x004002b0
+          pos_loop_two   Text   R   0x00400450
+           ver_if_four   Text   R   0x004003c4
+            pos_if_one   Text   R   0x00400458
+      end_ver_loop_one   Text   R   0x00400420
+           tie_and_end   Text   R   0x00400754
+             PRINT_INT          A   0x00000001
+       check_valid_col   Text   R   0x00400770
+         ver_loop_zero   Text   R   0x004002c8
+            hor_if_two   Text   R   0x004001dc
+        play_game_zero   Text   R   0x00400060
+          neg_loop_two   Text   R   0x004005c8
+    player_one_message   Text   R   0x0040007c
+          player_quits   Text   R   0x00400860
+
+Module:  r2k_startup.obj
+ Text segment:  36 bytes, load point 0x00400958
+ Symbols:
+                  Name Section Mode    Value
+             SYS_EXIT2          A   0x00000011
+        __r2k__entry__   Text   RG  0x0040095c
