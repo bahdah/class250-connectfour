@@ -1,3 +1,3 @@
 # class250-connectfour
 
-Created in 2018.
+Created in 2018
